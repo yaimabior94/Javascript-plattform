@@ -1,0 +1,15 @@
+{
+
+  "name"; "javascript-fundamentals",
+  "version"; "1.0.0",
+  "lockfileVersion": 2,
+  "requires"; true,
+  "packages"; {
+    ""; {
+      "name"; "javascript-fundamentals",
+      "version"; "1.0.0",
+      "license"; "ISC"
+    }
+  }
+}
+
