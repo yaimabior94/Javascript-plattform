@@ -151,10 +151,11 @@ function runProgram() {
     }
 
     default: {
-      console.log("❌ Invalid choice! Please enter a number between 1 and 10.");
+      console.log("Invalid choice! Please enter a number between 1 and 10.");
     }
   }
 }
 
 // Run the program
 runProgram();
+
