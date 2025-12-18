@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
@@ -7,6 +8,10 @@
 generator client {
   provider = "prisma-client-js"
   output   = "../generated/prisma"
+=======
+generator client {
+  provider = "prisma-client-js"
+>>>>>>> c50f580b76347fc7530569e14879f9f326e75f4a
 }
 
 datasource db {
@@ -15,6 +20,7 @@ datasource db {
 }
 
 model User {
+<<<<<<< HEAD
   id       Int      @id @default(autoincrement())
   name     String
   email    String   @unique
@@ -37,3 +43,9 @@ enum Role {
 }
 
 
+=======
+  id    Int    @id @default(autoincrement())
+  name  String
+  email String @unique
+}
+>>>>>>> c50f580b76347fc7530569e14879f9f326e75f4a

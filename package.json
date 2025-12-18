@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "clean-app",
   "version": "0.0.0",
   "private": true,
@@ -18,5 +19,22 @@
   "devDependencies": {
     "dotenv": "^17.2.3",
     "prisma": "^6.19.1"
+=======
+  "name": "week-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "express": "^5.2.1",
+    "prisma": "^5.15.0"
+>>>>>>> c50f580b76347fc7530569e14879f9f326e75f4a
   }
 }
