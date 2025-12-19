@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 node_modules
 # Keep environment variables out of version control
 .env
@@ -39,4 +38,3 @@ pnpm-debug.log*
 # OS files
 .DS_Store
 Thumbs.db
->>>>>>> c50f580b76347fc7530569e14879f9f326e75f4a
